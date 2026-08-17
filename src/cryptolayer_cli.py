@@ -584,7 +584,7 @@ def main():
     json_files = get_json_files(DICTS_DIR)
     file_names = [file.name for file in json_files]
 
-    print()
+    print(f'\n - - WordCoder Dictionary - -\n')
 
     for n, fname in enumerate(file_names):
         print(f"{n+1}. {Fore.YELLOW}{fname}{ColoramaStyle.RESET_ALL}")
